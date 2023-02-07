@@ -47,4 +47,4 @@ USE Northwind
 --FROM Employees
 --WHERE ReportsTo is Null
 --14--SELECT Employees.FirstName, ReportsTo
---FROM Employees--WHERE ReportsTo = 2;--Select * FROM Orders
+--FROM Employees--WHERE ReportsTo = 2;--Select * FROM Orders--EXTRA ---1--SELECT MAX(OrderID) FROM [Order Details]----SELECT MIN(OrderID) FROM [Order Details]--SELECT AVG(OrderID) FROM [Order Details]--SELECT * FROM [Order Details]---2--SELECT AVG(Quantity) FROM [Order Details]--SELECT MIN(Quantity) FROM [Order Details]--SELECT MAX(Quantity) FROM [Order Details]--3--Select * FROM Customers--WHERE City='London' OR City= 'Paris'
